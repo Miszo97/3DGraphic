@@ -11,7 +11,7 @@ The program takes advantage of quaternions and transforamtion matrix to compute 
 ### Example:
 
 In order to count a new coordinate of out point we have to use ready formula for this.
-![](https://latex.codecogs.com/svg.latex?y%3Dx%5E2) https://latex.codecogs.com/gif.latex?p'&space;=&space;qpq^{-1}
+![](https://latex.codecogs.com/gif.latex?p'&space;=&space;qpq^{-1}) 
 
 
 
