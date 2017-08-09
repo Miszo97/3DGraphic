@@ -25,3 +25,6 @@ then q^(-1) = \[-k]<br />
 Knowing that i2 = j2 = k2 = ijk = −1 <br />
 p' = \[0 + k] * \[0 + i] * \[0 - k] = \[0 + j] * \[0 - k] = \[0 - i]<br />
 \[0 - i] points to the rotated point: (1, 0, 0), which is correct.<br />
+
+#### References:
+John Vince -Geometry for Computer Graphics
