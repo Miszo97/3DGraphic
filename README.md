@@ -13,7 +13,8 @@ The program takes advantage of quaternions and transforamtion matrix to compute 
 In order to count a new coordinate of our point we have to use ready formula for this.
  
 ![](https://latex.codecogs.com/gif.latex?p'&space;=&space;qpq^{-1}) 
-Where 
+Where
+ 
 ![](https://latex.codecogs.com/gif.latex?q&space;=&space;[cos\frac{\Theta&space;}{2},sin\frac{\Theta&space;}{2}\bar{V}])
 
 
