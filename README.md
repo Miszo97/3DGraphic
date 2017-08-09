@@ -5,12 +5,12 @@ This program allows you to manipulate a point in three-dimensional space. You ca
 
 ![stack Overflow](http://i.imgur.com/cQ6Bg9v.png)
 
-## How it works.
+## How it works
 The program takes advantage of quaternions and transforamtion matrix to compute coordinates of new point. To simplify, Quaternions are the way of repesentig objects trafsormation. Quaternion can be expressed as a matrix or algebraically. The algebraically form is q = \[s * xi * yj * zk] where s, x, y and z are all scalars. i,j,k are imaginary components and the are representing all 3 axis.
 
 ### Example:
 
-In order to count a new coordinate of our point we have to use ready formula for this.
+In order to count a new coordinates of our point we have to use ready formula for this.
  
 ![](https://latex.codecogs.com/gif.latex?p'&space;=&space;qpq^{-1}) <br />
 
@@ -27,4 +27,4 @@ p' = \[0 + k] * \[0 + i] * \[0 - k] = \[0 + j] * \[0 - k] = \[0 - i]<br />
 \[0 - i] points to the rotated point: (1, 0, 0), which is correct.<br />
 
 #### References:
-John Vince -Geometry for Computer Graphics
+John Vince - Geometry for Computer Graphics
