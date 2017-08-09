@@ -21,6 +21,6 @@ Where
 Let p be the quaternion for (1,0,0) i.e. p = \[0+i]
 Let q be a unit quaternion aligned with the z-axis which rotates p 180°
 i.e q = \[cos90,sin90(k)] = \[0 + k]
-then q^(-1) = [-k]
+then q^(-1) = \[-k]
 and p' = \[0 + k] * \[0 + i] * \[0 - k] = \[0 + j] * \[0 - k] = \[0 - i]
 \[0  i] points to the rotated point: (1, 0, 0), which is correct.
